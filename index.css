@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Sudo Var Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Sudo Var Regular"), url("/font/SudoVariable.woff") format("woff");
+  }
+  
+  body {
+    font-family: "Sudo Var Regular";
+  }
+body{
+    height: 100vh;
+    margin: 0px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+.innerbody{
+    box-sizing: border-box;
+background: #FFE602;
+border-width: 1px 8px 8px 1px;
+border-style: solid;
+border-color: #000000;
+border-radius: 37px;
+margin: 0 0.5rem;
+    
+    width: 100%;
+    max-width: 40rem;
+    background-color: #FFE602;
+    padding: 3rem;
+    padding-top:0px;
+    padding-bottom: 1.5rem;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #50FFAF;
+}
+.heading{
+font-size: 2rem;
+font-weight: bold;
+}
+.definition{
+    font-size: 1.5rem;
+}
